@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find puzzlebot_rviz)/launch/run_sim.launch"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find puzzlebot_rviz)/config.rviz"/>
+  <node name="puzzlebot_sim" pkg="puzzlebot_sim" type="k_model.py"/>
+  <node name="puzzlebot_wheel" pkg="puzzlebot_sim" type="wheel_speed.py"/>
+  <node name="puzzlebot_tf" pkg="puzzlebot_sim" type="transformer.py"/>
+</launch>

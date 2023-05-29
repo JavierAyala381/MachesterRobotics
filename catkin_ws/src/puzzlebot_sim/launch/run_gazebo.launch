@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find puzzlebot_rviz)/launch/run_gazebo.launch"/>
+  
+  <node name="puzzlebot_cmd" pkg="puzzlebot_sim" type="exp.py"/>
+  <node name="puzzlebot_save" pkg="puzzlebot_sim" type="save_results.py"/>
+</launch>

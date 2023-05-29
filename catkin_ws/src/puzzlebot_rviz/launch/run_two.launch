@@ -1,0 +1,18 @@
+<launch>
+  
+
+  <group ns="rv">
+  <include file="$(find puzzlebot_rviz)/launch/run_sim.launch">
+    <arg name="prefix" value="rv"/>
+    <arg name="name" value="puzzlebot_rviz"/>
+  </include>
+  </group>
+
+  <include file="$(find puzzlebot_rviz)/launch/run_gazebo.launch">
+    <arg name="prefix" value="gaz"/>
+  </include>
+  
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find puzzlebot_rviz)/config_un.rviz"/>
+</launch>
+
+
