@@ -1,0 +1,2 @@
+k_model:puzzlebot_control:puzzlebot_gazebo:puzzlebot_navigation_bugs:puzzlebot_rviz:puzzlebot_sim:puzzlebot_world
+-DCATKIN_DEVEL_PREFIX=/home/vlad/catkin_ws/src/MachesterRobotics/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vlad/catkin_ws/src/MachesterRobotics/catkin_ws/install -G Unix Makefiles

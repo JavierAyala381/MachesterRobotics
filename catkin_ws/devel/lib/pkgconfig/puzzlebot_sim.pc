@@ -1,0 +1,8 @@
+prefix=/home/vlad/catkin_ws/src/MachesterRobotics/catkin_ws/devel
+
+Name: puzzlebot_sim
+Description: Description of puzzlebot_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

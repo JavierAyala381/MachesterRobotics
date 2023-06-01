@@ -1,0 +1,8 @@
+prefix=/home/vlad/catkin_ws/src/MachesterRobotics/catkin_ws/devel
+
+Name: puzzlebot_control
+Description: Description of puzzlebot_control
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: std_msgs nav_msgs geometry_msgs sensor_msgs roscpp message_runtime

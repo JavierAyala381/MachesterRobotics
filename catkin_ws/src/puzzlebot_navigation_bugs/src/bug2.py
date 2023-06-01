@@ -46,7 +46,7 @@ pos = Twist()
 c_vel = Twist()
 pub = rospy.Publisher('/cmd_vel',Twist,queue_size=10)
 rospy.init_node('bug2')
-rate_dur = 10
+rate_dur = 5
 rate = rospy.Rate(rate_dur)
 rate_dur = 1/rate_dur
 puntos = []
@@ -57,8 +57,8 @@ temp = []
 nfb = False
 ilb = False
 sl = 0
-turnPID = ControlPID(rate_dur,kp = 0.4)
-fowaPID = ControlPID(rate_dur,kp = 0.2,kd = 0.005)
+turnPID = ControlPID(rate_dur,kp = 0.5)
+fowaPID = ControlPID(rate_dur,kp = 0.3,kd = 0.0005)
 
 # %% [markdown]
 # Declaramos el callback de Odometría el cual se encarga de dar la posición del robot de acuerdo a sus cálculos de las velocidades hechas en cada motor.

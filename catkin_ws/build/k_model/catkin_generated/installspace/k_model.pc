@@ -1,0 +1,8 @@
+prefix=/home/vlad/catkin_ws/src/MachesterRobotics/catkin_ws/install
+
+Name: k_model
+Description: Description of k_model
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

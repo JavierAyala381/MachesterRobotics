@@ -5,7 +5,7 @@ import tf
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import TransformStamped, Quaternion
 from tf.transformations import quaternion_from_euler
-from std_msgs.msg import Float32
+from std_msgs.msg import Float64
 from math import cos, sin
 import numpy as np
 from puzzlebot_info import *
@@ -56,8 +56,8 @@ class k_model:
 
         rospy.init_node('puzzlebot_deadReckoning')
         self.pub_odom = rospy.Publisher('/odom', Odometry, queue_size=10)
-        self.wl_sub = rospy.Subscriber('/wl', Float32, self.wr_cb)
-        self.wr_sub = rospy.Subscriber('/wr', Float32, self.wl_cb)
+        self.wl_sub = rospy.Subscriber('/wr', Float64, self.wr_cb)
+        self.wr_sub = rospy.Subscriber('/wl', Float64, self.wl_cb)
 
     
     

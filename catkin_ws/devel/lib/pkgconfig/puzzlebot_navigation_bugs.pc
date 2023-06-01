@@ -1,0 +1,8 @@
+prefix=/home/vlad/catkin_ws/src/MachesterRobotics/catkin_ws/devel
+
+Name: puzzlebot_navigation_bugs
+Description: Description of puzzlebot_navigation_bugs
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

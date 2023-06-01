@@ -1,0 +1,8 @@
+prefix=/home/vlad/catkin_ws/src/MachesterRobotics/catkin_ws/devel
+
+Name: puzzlebot_rviz
+Description: Description of puzzlebot_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
