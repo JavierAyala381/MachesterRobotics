@@ -3,7 +3,7 @@ This repository contains the code to create a camera based Extended Kalman Filte
 
 1. Run the following command to run Gazebo and Rviz with the world
 
-'''roslaunch puzzlebot_sim run_kalmanFilter.launch'''
+`roslaunch puzzlebot_sim run_kalmanFilter.launch`
 
 2. In another windows run this command to execute KalmanFilter
 
