@@ -7,8 +7,8 @@ This repository contains the code to create a camera based Extended Kalman Filte
 
 2. In another windows run this command to execute KalmanFilter
 
-'''python3 EKalmanFilter.py'''
+`python3 EKalmanFilter.py`
 
 3. In another window run this command to execute navegation algorithm
 
-'''rosrun puzzlebot_navigation_bugs bug2.py'''
+`rosrun puzzlebot_navigation_bugs bug2.py`
